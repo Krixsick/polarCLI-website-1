@@ -100,7 +100,7 @@ export function QuickStart() {
       {/* Bottom CTA */}
       <div className="mt-10 flex flex-col items-center gap-4">
         <a
-          href="https://github.com/yourusername/polarcli"
+          href="https://github.com/Krixsick/polarCLI-1"
           target="_blank"
           rel="noopener noreferrer"
           className="px-8 py-3 bg-white text-black font-semibold rounded-full hover:bg-white/90 transition-colors cursor-pointer text-sm"

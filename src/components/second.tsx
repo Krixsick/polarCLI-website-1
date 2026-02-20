@@ -10,8 +10,6 @@ export function Second() {
           Manage files from the terminal
         </h2>
       </div>
-
-      {/* Video + features row */}
       <div className="flex flex-col lg:flex-row items-center gap-10 max-w-5xl w-full">
         {/* Video embed */}
         <div className="flex-1 w-full rounded-2xl overflow-hidden border border-white/10 bg-white/5">
@@ -28,7 +26,7 @@ export function Second() {
           {[
             { cmd: "fb 10 mb", desc: "Find files above any size threshold" },
             { cmd: "del file.txt", desc: "Safely delete with confirmation" },
-            { cmd: "cd ~/projects", desc: "Navigate directories seamlessly" },
+            { cmd: "cd ~", desc: "Use other terminal commands normally" },
           ].map((f) => (
             <div
               key={f.cmd}

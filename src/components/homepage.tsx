@@ -39,9 +39,13 @@ export function Home() {
             direction="top"
             className="text-4xl md:text-6xl font-bold text-white text-center"
           />
-          <p className="text-white/80 font-bold text-lg max-w-md text-center">
-            The easiest way to manage your files.
-          </p>
+          <BlurText
+            text="The easiest way to manage your files."
+            delay={200}
+            animateBy="words"
+            direction="top"
+            className="text-white/80 font-bold text-lg max-w-md text-center"
+          />
           <div className="flex gap-4 mt-4">
             <button className="px-8 py-3 bg-white text-black font-semibold rounded-full hover:bg-white/90 transition-colors cursor-pointer">
               Get Started
