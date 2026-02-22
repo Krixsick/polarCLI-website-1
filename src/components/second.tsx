@@ -1,3 +1,5 @@
+import video1 from "@/assets/video1.gif";
+
 export function Second() {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center px-8 gap-12">
@@ -13,12 +15,7 @@ export function Second() {
       <div className="flex flex-col lg:flex-row items-center gap-10 max-w-5xl w-full">
         {/* Video embed */}
         <div className="flex-1 w-full rounded-2xl overflow-hidden border border-white/10 bg-white/5">
-          <video
-            src="/your-demo-video.mp4"
-            controls
-            className="w-full h-auto"
-            poster="/video-thumbnail.png"
-          />
+          <img src={video1} className="w-full h-auto" />
         </div>
 
         {/* Feature highlights */}
